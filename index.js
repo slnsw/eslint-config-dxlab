@@ -28,6 +28,7 @@ module.exports = {
     "lines-around-directive": 0,
     "max-len": 0,
     "no-console": 0,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-unused-vars": [2, { "argsIgnorePattern": "^_" }],
     "no-use-before-define": 0,
     "padded-blocks": ["error", { "classes": "always" }]
