@@ -20,6 +20,7 @@ module.exports = {
   ],
   rules: {
     "array-callback-return": 0,
+    "arrow-body-style": 0,
     "arrow-parens": 0,
     "class-methods-use-this": 0,
     "consistent-return": 0,
