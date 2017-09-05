@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "eslint": "~4.0",
-    "eslint-config-airbnb-base": "~11.0",
-    "eslint-plugin-import": "~2.0"
+    "eslint": "4.x",
+    "eslint-config-airbnb-base": "11.x",
+    "eslint-plugin-import": "2.x"
   },
   "repository": {
     "type": "git",
