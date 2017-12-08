@@ -15,7 +15,8 @@ module.exports = {
     }
   },
   plugins: [
-    "import"
+    "import",
+    "only-warn"
     // "jsx-a11y"
   ],
   rules: {
