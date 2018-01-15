@@ -9,8 +9,10 @@
   "peerDependencies": {
     "eslint": "4.x",
     "eslint-config-airbnb-base": "11.x",
-    "eslint-plugin-only-warn": "1.0.1",
-    "eslint-plugin-import": "2.x"
+    "eslint-config-prettier": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-only-warn": "1.x",
+    "prettier": "1.x"
   },
   "repository": {
     "type": "git",
@@ -21,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/slnsw/eslint-config-dxlab/issues"
   },
-  "homepage": "https://github.com/slnsw/eslint-config-dxlab#readme",
-  "dependencies": {
-    "eslint-config-prettier": "^2.9.0"
-  }
+  "homepage": "https://github.com/slnsw/eslint-config-dxlab#readme"
 }
