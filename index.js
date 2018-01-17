@@ -1,6 +1,9 @@
 module.exports = {
   parser: "babel-eslint",
-  extends: "airbnb-base",
+  extends: [
+    "airbnb-base",
+    "prettier"
+  ],
   env: {
     "browser": true,
     "node": true,
@@ -15,7 +18,8 @@ module.exports = {
     }
   },
   plugins: [
-    "import"
+    "import",
+    "only-warn"
     // "jsx-a11y"
   ],
   rules: {
@@ -26,6 +30,7 @@ module.exports = {
     "consistent-return": 0,
     "dot-notation": 0,
     "import/prefer-default-export": 0,
+    // "indent": 0,
     "lines-around-directive": 0,
     "max-len": 0,
     "no-console": 0,
