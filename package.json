@@ -12,6 +12,7 @@
     "eslint-config-prettier": "2.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-only-warn": "1.x",
+    "eslint-plugin-prettier": "^2.5.0",
     "prettier": "1.x"
   },
   "repository": {

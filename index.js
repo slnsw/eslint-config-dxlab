@@ -19,7 +19,8 @@ module.exports = {
   },
   plugins: [
     "import",
-    "only-warn"
+    "only-warn",
+    "prettier"
     // "jsx-a11y"
   ],
   rules: {
