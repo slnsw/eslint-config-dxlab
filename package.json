@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-dxlab",
+  "name": "@slnsw/eslint-config-dxlab",
   "version": "0.0.9",
   "description": "Shareable ESLint configuration for Javascript",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "eslint": "3.x",
+    "eslint": "4.x",
     "eslint-config-airbnb-base": "11.x",
     "eslint-config-prettier": "2.x",
     "eslint-plugin-import": "2.x",
