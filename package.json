@@ -1,6 +1,6 @@
 {
   "name": "@slnsw/eslint-config-dxlab",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Shareable ESLint configuration for Javascript",
   "main": "index.js",
   "scripts": {
