@@ -14,6 +14,11 @@ module.exports = {
       jsx: true,
     },
   },
+  globals: {
+    document: true,
+    window: true,
+    process: true,
+  },
   plugins: [
     'import',
     'only-warn',
