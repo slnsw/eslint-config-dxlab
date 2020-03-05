@@ -19,12 +19,7 @@ module.exports = {
     window: true,
     process: true,
   },
-  plugins: [
-    'import',
-    'only-warn',
-    'prettier',
-    // "jsx-a11y"
-  ],
+  plugins: ['import', 'only-warn', 'prettier'],
   rules: {
     'array-callback-return': 0,
     'arrow-body-style': 0,
@@ -33,7 +28,6 @@ module.exports = {
     'consistent-return': 0,
     'dot-notation': 0,
     'import/prefer-default-export': 0,
-    // "indent": 0,
     'lines-around-directive': 0,
     'max-len': 0,
     'no-console': 0,
@@ -42,6 +36,5 @@ module.exports = {
     'no-use-before-define': 0,
     'padded-blocks': ['error', { classes: 'always' }],
     'prettier/prettier': 'error',
-    // "jsx-a11y/no-static-element-interactions": 0,
   },
 };
